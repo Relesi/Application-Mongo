@@ -1,0 +1,12 @@
+package com.relesi.applicationMongo.api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ApplicationMongoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApplicationMongoApplication.class, args);
+	}
+}
